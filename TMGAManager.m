@@ -8,9 +8,9 @@
 
 #import "TMGAManager.h"
 #ifdef DEBUG
-#define TRACKING_ID @"UA-43440931-3"
+#define TRACKING_ID @"UA-********-3"
 #else
-#define TRACKING_ID @"UA-10587421-2"
+#define TRACKING_ID @"UA-********-2"
 #endif
 
 @implementation TMGAManager
@@ -340,9 +340,5 @@
     [self.tracker set:kGAIScreenName value:screenName];
     [self sendTracker];
 }
-
-
-
-
 
 @end
